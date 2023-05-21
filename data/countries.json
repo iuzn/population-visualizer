@@ -1,6 +1,6 @@
 {
-  source: "Data obtained from: https://gitlab.com/restcountries/restcountries/-/blob/master/src/main/resources/countriesV3.1.json",
-  data: [
+  "source": "Data obtained from: https://gitlab.com/restcountries/restcountries/-/blob/master/src/main/resources/countriesV3.1.json",
+  "data": [
     {
       "name": {
         "common": "Aruba",
