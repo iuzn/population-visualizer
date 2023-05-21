@@ -2,6 +2,9 @@
 
 Population Visualization is a web application that provides an interactive visualization of country populations worldwide. Built with React and TypeScript, it uses D3.js to generate a dynamic treemap diagram where each rectangle represents a country, sized proportionally to its population. The countries are grouped by continent and color-coded for easy visual interpretation.
 
+![population-visualizer vercel app_ (1)](https://github.com/iuzn/population-visualizer/assets/25708048/a236fbc0-9642-40c4-8805-aee654506774)
+
+
 ## Features
 - Dynamic treemap visualization: Countries are displayed as rectangles within their respective continent group, scaled according to population.
 - Responsive design: The visualization adjusts to the full width and height of the screen.
