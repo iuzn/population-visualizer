@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Population Visualization
+
+Population Visualization is a web application that provides an interactive visualization of country populations worldwide. Built with React and TypeScript, it uses D3.js to generate a dynamic treemap diagram where each rectangle represents a country, sized proportionally to its population. The countries are grouped by continent and color-coded for easy visual interpretation.
+
+## Features
+- Dynamic treemap visualization: Countries are displayed as rectangles within their respective continent group, scaled according to population.
+- Responsive design: The visualization adjusts to the full width and height of the screen.
+- Interactive labels: Each rectangle displays the country name and population, sized according to the rectangle's dimensions for readability.
+- Color-coding by continent: Each continent has a distinct color to provide clear distinction between regions.
+- Data from REST Countries API: The project fetches the latest data from the REST Countries API, ensuring up-to-date and accurate representation.
 
 ## Getting Started
+Clone this repository to your local machine and install the necessary dependencies using `pnpm i`. 
 
-First, run the development server:
+## Usage
+Start the development server with `pnpm dev`. Open your browser and visit `http://localhost:3000` to view the visualization.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Built With
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [D3.js](https://d3js.org/)
+- [Axios](https://axios-http.com/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
+We welcome contributions from the community. Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
